@@ -36,13 +36,14 @@ div {
 }
 img {
     position: relative;
-    margin: 0px auto;
-    margin-top:14px;
-    height:25%;
-    width:23%;
+    margin-right:0;
+    margin-top:5%;
+    height:30%;
+    width:27%;
     rotate:90px;
     float: right;
     border-radius: 5%;
+    box-shadow: 2px 2px 5px grey;
 }
 .rotate90 {
     -webkit-transform: rotate(90deg);
@@ -52,9 +53,11 @@ img {
     transform: rotate(90deg);
 }
 input {
-    align-content:right;
-    margin-left:73%;
-    margin-top:none;
+    position: relative;
+    margin: 0px auto;
+    float: right;
+    margin-left:45%; 
+    margin-right:25%; 
 }
 #corners {
     border-radius: 25px;
